@@ -20,11 +20,11 @@ function setup() {
 	createCanvas(500, 500);
   feed = createButton("Feed the dog");
   feed.position(700,95);
-  feed.mousepressed(feedDog);
+  feed.mousePressed(feedDog);
 
   addFood = createButton("Add Food");
   addfood.position(800,95);
-  addEventListener.mousePressed(addfoods);
+  addEventListener.mousePressed(addfood);
 
   foodObj = new Foodie();
   d = createSprite(250,250,20,20);
